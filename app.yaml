@@ -1,0 +1,7 @@
+runtime: python312
+env: standard
+entrypoint: gunicorn -b :$PORT main:app
+
+# Manual Scaling:  
+manual_scaling:
+  instances: 1 # Set the desired number of instances
