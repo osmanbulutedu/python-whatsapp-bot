@@ -1,3 +1,9 @@
 flask
 python-dotenv
-openai
+openai==1.23.6
+gunicorn==22.0.0
+requests
+google-cloud-storage
+googlemaps
+google-cloud-firestore
+pytz
